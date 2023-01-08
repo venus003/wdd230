@@ -1,0 +1,34 @@
+body {
+    margin: auto;
+    width: 75vw;
+    text-align: center;
+}
+
+header {
+    background-color: green;
+    display: flex;
+    border-radius: 1.5em;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    padding: 1em;
+}
+
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+a {
+    color: green;
+}
+
+footer {
+    background-color: green;
+    border-radius: 1.5em;
+    color: white;
+}
