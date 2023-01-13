@@ -1,0 +1,50 @@
+body {
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+header {
+    background-color: green;
+    color: white;
+}
+
+main {
+    text-align: left;
+    display: grid;
+}
+
+h1, h2, h3, p {
+    padding: 1em;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.box {
+    background-color: purple;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+section {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+h1 {
+    margin: 0em;
+}
+
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+a {
+    color: green;
+}
+
+footer {
+    background-color: green;
+    color: white;
+}
