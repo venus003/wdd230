@@ -2,15 +2,17 @@
     header {
         border-radius: 1.5em;
         align-items: center;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     header img {
+        margin-left: 35%;
         padding: 1em;
     }
     
     h1 {
-        margin-left: 2em;
+        margin-right: 50%;
     }
 
     footer {
