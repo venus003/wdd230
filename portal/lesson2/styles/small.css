@@ -32,6 +32,7 @@ section h2 {
     padding-left: 0.75em;
     border-radius: 25px 25px 0px 0px;
     background-color: darkgreen;
+    color: white;
 }
 
 img {
@@ -45,7 +46,9 @@ a {
 }
 
 p {
-    margin: 1em;
+    margin-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     line-height: 1em;
 }
 
