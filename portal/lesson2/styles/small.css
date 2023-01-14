@@ -15,33 +15,38 @@ main {
 }
 
 h1, h2, h3, p {
-    padding: 1em;
+    margin: 0em;
     font-family: 'Averia Serif Libre', cursive;
 }
 
-.box {
-    background-color: purple;
+section {
+    border-radius: 25px 25px 0px 0px;
+    background-color: rgb(193, 193, 193);
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-}
-
-section {
     margin-left: 1em;
     margin-right: 1em;
 }
 
-h1 {
-    margin: 0em;
+section h2 {
+    padding-left: 0.75em;
+    border-radius: 25px 25px 0px 0px;
+    background-color: darkgreen;
 }
 
-ul {
-    display: table; 
-    margin: 0 auto;
-    text-align: left;
+img {
+    margin: auto;
+    display: block;
+    width: 98%;
 }
 
 a {
     color: green;
+}
+
+p {
+    margin: 1em;
+    line-height: 1em;
 }
 
 footer {
