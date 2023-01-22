@@ -1,0 +1,21 @@
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+        margin-left: 0.33em;
+        margin-right: 0.5em;
+    }
+
+    section:nth-child(2) {
+        margin-left: 0.33em;
+        margin-right: 0.33em;
+    }
+
+    section:nth-child(1) {
+        margin-left: 0.5em;
+        margin-right: 0.33em;
+    }
+}
