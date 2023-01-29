@@ -9,6 +9,15 @@ header {
     color: white;
 }
 
+.social {
+	margin-right: 1.5rem;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
+}
+
 .two {
     display: flex;
 	align-items: center;
