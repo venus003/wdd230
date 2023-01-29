@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        border-radius: 1.5em;
+    }
+
+    nav {
+		flex-direction: column;
+	}
+
+    .join {
+        display: inline;
+    }
+
+    footer {
+        border-radius: 1.5em;
+    }
+}

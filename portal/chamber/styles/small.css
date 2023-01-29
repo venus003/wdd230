@@ -1,0 +1,108 @@
+body {
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+header {
+    background-color: green;
+    color: white;
+}
+
+.two {
+    display: flex;
+	align-items: center;
+	margin-left: 1em;
+}
+
+.two h1 {
+    margin-left: 1em;
+}
+
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	padding: 0.75rem;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: turquoise;
+    color: black;
+    border-radius: 1.5em;
+}
+
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+	content: "X";
+}
+
+h1, h2, h3, p {
+    margin: 0em;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+img {
+    width: 5em;
+}
+
+a {
+    color: green;
+}
+
+main {
+    display: grid;
+}
+
+section {
+    margin: 0.5em;
+    background-color: lightgreen;
+}
+
+.join {
+    display: none;
+}
+
+p {
+    margin-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    line-height: 1em;
+}
+
+footer {
+    background-color: green;
+    color: white;
+}
