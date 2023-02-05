@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em) {
-    main {
+    .grid {
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(6, 100px);
     }
 
     .hero {
@@ -9,7 +9,6 @@
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 5;
-        
     }
 
     .event {
@@ -33,12 +32,21 @@
         grid-row-end: 7;
     }
 
+    .spotlight {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 7;
+    }
+
     .news {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 5;
         grid-row-end: 7;
     }
+
+
 
     .navigation {
         display: flex;

@@ -91,7 +91,7 @@ a {
     color: green;
 }
 
-main {
+.grid {
     display: grid;
 }
 
