@@ -95,7 +95,7 @@ a {
     display: grid;
 }
 
-section {
+.hero, .event, .weather, .news, .join, .spotlight {
     margin: 0.5em;
     background-color: lightgreen;
 }
