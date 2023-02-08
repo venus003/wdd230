@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em) {
     .grid {
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: repeat(6, 100px);
+        grid-template-rows: repeat(6, 1fr);
     }
 
     .hero {
